@@ -8577,3 +8577,7 @@ comments {
 .c-file_container--gradient::after {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0), #000000);
 }
+
+.CodeMirror pre {
+    color: #b7b7b7;
+}
