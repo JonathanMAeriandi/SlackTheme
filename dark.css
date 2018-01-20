@@ -2947,7 +2947,7 @@ code {
     }
 
 .file_container .CodeMirror .CodeMirror-code > div::before, .file_container .CodeMirror .sssh-line::before, .file_container .sssh-code .CodeMirror-code > div::before, .file_container .sssh-code .sssh-line::before {
-    background-color: #363636;
+    background-color: #000000;
     border-right: 1px solid #363636;
     color: #c0c0c0;
 }
@@ -2960,6 +2960,7 @@ code {
 
     .CodeMirror pre {
         background: transparent !important;
+        color: #b7b7b7;
     }
 
     .CodeMirror div.CodeMirror-cursor {
@@ -2976,7 +2977,7 @@ code {
     }
 
 .CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler {
-    background-color: #363636;
+    background-color: #000000;
 }
 
 .CodeMirror-linenumber {
@@ -3017,6 +3018,10 @@ code {
 
 .cm-s-default .cm-variable-3 {
     color: #c5e1a5;
+}
+
+.cm-s-default .cm-variable {
+    color: #9fa8df;
 }
 
 .cm-s-default .cm-comment {
@@ -3064,7 +3069,7 @@ code {
 }
 
 .cm-s-default .cm-hr {
-    color: #363636;
+    color: #b7b7b7;
 }
 
 .cm-s-default .cm-link {
@@ -3196,7 +3201,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 .sssh-hr {
-    color: #363636;
+    color: #b7b7b7;
 }
 
 .sssh-link {
